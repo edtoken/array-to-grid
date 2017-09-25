@@ -1,6 +1,15 @@
 # Array to Grid
 Creating a Grid from an Array of elements
 
+Recursive object extending.
+
+[![Build Status](https://api.travis-ci.org/edtoken/array-to-grid.svg?branch=master)](https://travis-ci.org/edtoken/array-to-grid)
+
+[![NPM](https://nodei.co/npm/array-to-grid.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/array-to-grid/)
+
+[![NPM](https://nodei.co/npm-dl/array-to-grid.png?height=3)](https://nodei.co/npm/array-to-grid/)
+
+
 input
 ``` 
 [
