@@ -29,6 +29,22 @@ describe('deep-extend', function() {
 		JSON.stringify(result).should.be.equal(JSON.stringify([[{_scale: 1, _size: 12}]]))
 	});
 
+	it('should set default column size', function() {
+		var input = [
+			{},
+			{},
+			{},
+			{},
+		];
+		var output = [
+			[{_scale: 0.5, _size: 6}, {_scale: 0.5, _size: 6}],
+			[{_scale: 0.5, _size: 6}, {_scale: 0.5, _size: 6}]
+		];
+
+		var result = grid(input, 12);
+		JSON.stringify(result).should.be.equal(JSON.stringify(output))
+	});
+
 	it('should create three rows', function() {
 		var input = [
 			{_scale: 1},
