@@ -30,13 +30,13 @@ describe('deep-extend', function() {
 	});
 
 	it('should create three rows', function() {
-		let input = [
+		var input = [
 			{_scale: 1},
 			{_scale: 0.5},
 			{_scale: 0.4},
 			{_scale: 0.2},
 		];
-		let output = [
+		var output = [
 			[{_scale: 1, _size: 12}],
 			[{_scale: 0.5, _size: 6}, {_scale: 0.4, _size: 4}],
 			[{_scale: 0.2, _size: 2}]
