@@ -1,0 +1,39 @@
+{
+  "name": "array-to-grid",
+  "description": "Creating a Grid from an Array",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/edtoken/array-to-grid",
+  "keywords": [
+    "react grid",
+    "grid"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/edtoken/array-to-grid/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edtoken/array-to-grid.git"
+  },
+  "author": "Eduard Titov <editied@gmail.com>",
+  "bugs": "https://github.com/edtoken/array-to-grid/issues",
+  "contributors": [],
+  "main": "lib/array-to-grid.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "should": "^13.1.0"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ]
+}
