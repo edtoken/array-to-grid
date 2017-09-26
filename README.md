@@ -1,8 +1,6 @@
 # Array to Grid
 Creating a Grid from an Array of elements
 
-Recursive object extending.
-
 [![Build Status](https://api.travis-ci.org/edtoken/array-to-grid.svg?branch=master)](https://travis-ci.org/edtoken/array-to-grid)
 
 [![NPM](https://nodei.co/npm/array-to-grid.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/array-to-grid/)
@@ -36,6 +34,22 @@ npm install array-to-grid --save
 ```
 
 ## Usage
+
+### Properties
+* `  arrayToGrid.defaultColumnSize  ` default column *_size* value
+* `  arrayToGrid.defaultRowSize  ` sum of width for 1 row
+
+### Arguments
+```
+/**
+ * @param {Array} elements - The array of elements for grid
+ * @param {Integer} [rowSize=12] rowSize - Row size, default 12 (for example bootstrap grid size is 12)
+ * @param {Integer} [columnSize=0.5] columnSize - Column size, default 0.5 ( 1/2 of row )
+ * Returns a new array
+ */
+ 
+arrayToGrid(elements:Array, rowSize:Integer, columnSize:Integer) 
+```
 
 ### Make a Form
 ```

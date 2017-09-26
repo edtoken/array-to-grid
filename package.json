@@ -2,7 +2,7 @@
   "name": "array-to-grid",
   "description": "Creating a Grid from an Array",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/edtoken/array-to-grid",
   "keywords": [
     "react grid",
