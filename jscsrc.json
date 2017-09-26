@@ -1,0 +1,32 @@
+{
+    "preset": "google",
+    "fileExtensions": [
+        ".js",
+        ".jsx"
+    ],
+    "validateIndentation": {
+        "value": 4
+    },
+    "maxErrors": null,
+    "requireSemicolons": true,
+    "maximumLineLength": 120,
+    "validateLineBreaks": "LF",
+    "disallowTrailingComma": true,
+    "validateQuoteMarks": "'",
+    "disallowMixedSpacesAndTabs": true,
+    "safeContextKeyword": "self",
+    "requireSpaceBetweenArguments": true,
+    "requireSpaceAfterComma": true,
+    "requireSpaceBeforeObjectValues": true,
+    "jsDoc": {
+        "checkParamNames": true,
+        "requireParamTypes": true,
+        "checkRedundantParams": true,
+        "checkReturnTypes": true,
+        "checkRedundantReturns": true,
+        "requireReturnTypes": true,
+        "checkTypes": "capitalizedNativeCase",
+        "checkRedundantAccess": true,
+        "requireNewlineAfterDescription": true
+    }
+}
