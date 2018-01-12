@@ -2,10 +2,12 @@
 Creating a Grid from an Array of elements
 
 [![Build Status](https://api.travis-ci.org/edtoken/array-to-grid.svg?branch=master)](https://travis-ci.org/edtoken/array-to-grid)
+[![npm version](https://badge.fury.io/js/array-to-grid.svg)](https://badge.fury.io/js/array-to-grid)
+[![Maintainability](https://api.codeclimate.com/v1/badges/63008b6460da6fcf114b/maintainability)](https://codeclimate.com/github/edtoken/array-to-grid/maintainability)
+[![HitCount](http://hits.dwyl.com/edtoken/array-to-grid.svg)](http://hits.dwyl.com/edtoken/array-to-grid)  
 
-[![NPM](https://nodei.co/npm/array-to-grid.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/array-to-grid/)
-
-[![NPM](https://nodei.co/npm-dl/array-to-grid.png?height=3)](https://nodei.co/npm/array-to-grid/)
+[![NPM](https://nodei.co/npm/array-to-grid.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/array-to-grid/)  
+[![NPM](https://nodei.co/npm-dl/array-to-grid.png?height=3)](https://nodei.co/npm/array-to-grid/)  
 
 
 
